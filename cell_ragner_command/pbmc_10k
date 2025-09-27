@@ -1,0 +1,8 @@
+## Pbmc_10K 
+nohup /home/r22100180/project/cellranger-9.0.1/cellranger count \
+  --id=pbmc_10k \
+  --transcriptome=/home/r22100180/project/refdata-gex-GRCh38-2024-A \
+  --fastqs=/home/r22100180/data/pbmc_10k_v3/pbmc_10k_v3_fastqs \
+  --sample=pbmc_10k_v3 \
+  --chemistry=auto \
+  --create-bam=true \
