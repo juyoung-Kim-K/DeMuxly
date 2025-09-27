@@ -1,3 +1,5 @@
+# Cell Ranger 실행 기록
+
 ## Pbmc_10K 
 nohup /home/r22100180/project/cellranger-9.0.1/cellranger count \
   --id=pbmc_10k \
