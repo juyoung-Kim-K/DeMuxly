@@ -1,12 +1,12 @@
 ##
-
 bsub -J cellplex_test1 \
      -q normal \
      -n 3 \
      -R "rusage[mem=10000]" \
      -W 24:00 \
      -N \
-     -o /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/cellplex_run1.out \
-     -e /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/cellplex_run1.err \
+     -o /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1/cellplex_run1.out \
+     -e /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1/cellplex_run1.err \
      cellranger multi --id=cellplex_run1 \
                       --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config.csv
+
