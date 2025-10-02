@@ -1,4 +1,6 @@
-##bsub -J cellplex_test1 \
+##
+
+bsub -J cellplex_test1 \
      -q normal \
      -n 3 \
      -R "rusage[mem=10000]" \
@@ -6,6 +8,5 @@
      -N \
      -o /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1.out \
      -e /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1.err \
-     cellranger multi --id=cellplex_run1 \
+     cellranger multi --id=cellplex_run2 \
                       --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config.csv
-
