@@ -7,5 +7,5 @@
      -o /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1.out \
      -e /home/r22100180/data/cellplex/SC3_v3_NextGem_DI/cellplex_run1.err \
      cellranger multi --id=cellplex_run1 \
-                      --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI_CellPlex_Human_PBMC_10K/pratice/config.csv
+                      --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config.csv
 
