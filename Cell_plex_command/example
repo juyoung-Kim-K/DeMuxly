@@ -1,3 +1,0 @@
-##
-cellranger multi --id=cellplex_run2 \
-                 --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/SC3_v3_NextGem_DI_CellPlex_Human_PBMC_10K_Multiplex_config.csv
