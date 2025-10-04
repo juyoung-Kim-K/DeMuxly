@@ -11,5 +11,4 @@ bsub -J cellplex_run \
   -e /home/r22100180/data/cellplex612/cellplex_run/cellplex_run.err \
   "/home/r22100180/project/cellranger-6.1.2/cellranger multi \
      --id=cellplex_run \
-     --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config.csv"
-
+     --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config2.csv"
