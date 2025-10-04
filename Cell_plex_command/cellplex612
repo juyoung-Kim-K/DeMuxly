@@ -1,0 +1,12 @@
+##
+
+(base) r22100180@hgucoss:~/data/cellplex612$ bsub -J cellplex_run \
+>   -q normal \
+>   -n 8 \
+>   -R "rusage[mem=8000]" \
+>   -W 24:00 \
+>   -o /home/r22100180/data/cellplex612/cellplex_run/%J.out \
+>   -e /home/r22100180/data/cellplex612/cellplex_run/%J.err \
+>   "/home/r22100180/project/cellranger-6.1.2/cellranger multi \
+>      --id=cellplex_run \
+>      --csv=/home/r22100180/data/cellplex/SC3_v3_NextGem_DI/pratice/config.csv"
